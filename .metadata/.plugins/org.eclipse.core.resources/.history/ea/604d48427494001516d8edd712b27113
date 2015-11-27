@@ -1,0 +1,17 @@
+POP_SIZE = 70
+GENE_SIZE = 8
+MUTATION_RATE = 0.3
+CROSSOVER = 0.7
+
+class Chromosome
+  @gene
+
+  def initialize
+    @gene = Array.new(POP_SIZE)
+    for i in 0 ... POP_SIZE
+      puts i
+    end
+  end
+end
+
+pop = Chromosome.new

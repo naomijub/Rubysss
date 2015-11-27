@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.aptana.erb.formatterFactory">
+		<item value="false" key="invisible.characters"/>
+		<item value="1049" key="width"/>
+		<item value="301" key="x"/>
+		<item value="0" key="y"/>
+		<item value="603" key="height"/>
+	</section>
+</section>

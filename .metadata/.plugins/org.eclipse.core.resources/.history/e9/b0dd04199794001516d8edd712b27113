@@ -1,0 +1,28 @@
+POP_SIZE = 70
+GENE_SIZE = 8
+MUTATION_RATE = 0.3
+CROSSOVER = 0.7
+
+class Chromosome
+  @gene
+
+  def initialize
+    @gene = Array.new(POP_SIZE)
+    for i in 0 ... POP_SIZE
+      genome = Array.new(GENE_SIZE)
+      for j in 0 ... GENE_SIZE
+        genome[j] = rand(GENE_SIZE * (j+1)) % GENE_SIZE
+      end
+      @gene[i] = genome.map {|j| j.to_s }.join
+      puts @gene[i]
+      
+      
+      
+    end
+  end
+  
+  
+  
+end
+
+pop = Chromosome.new
