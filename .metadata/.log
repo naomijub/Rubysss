@@ -6391,3 +6391,81 @@ java.util.EmptyStackException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+!SESSION 2015-11-27 22:39:14.959 -----------------------------------------------
+eclipse.buildId=3.6.1.201410201044
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.aptana.ruby.core 4 0 2015-11-27 22:39:42.632
+!MESSAGE (eval):1: warning: variable $= is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+C:/Users/JAT/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `eval': Is a directory @ rb_sysopen - C:\Users\JAT\Desktop\Git\Rubysss\.metadata\.plugins\com.aptana.ruby.core\-571580919\4 (Errno::EISDIR)
+	from C:/Users/JAT/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `eval'
+	from C:/Users/JAT/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `block (3 levels) in <main>'
+	from C:/Users/JAT/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:179:in `each'
+	from C:/Users/JAT/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:179:in `block (2 levels) in <main>'
+	from C:/Users/JAT/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:178:in `open'
+	from C:/Users/JAT/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:178:in `block in <main>'
+	from C:/Users/JAT/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:152:in `each'
+	from C:/Users/JAT/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:152:in `<main>'
+
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-11-27 22:43:14.597
+!MESSAGE Project facet jst.ejb has not been defined. It is used in plugin org.eclipse.jst.j2ee.
+
+!ENTRY com.aptana.ruby.core 4 0 2015-11-27 23:57:30.295
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Expected field decl on top of stack, but was: 
+
+!ENTRY com.aptana.ruby.core 4 0 2015-11-27 23:57:30.296
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Expected block on top of stack, but was: int_from_prime_division(pd)
+
+!ENTRY com.aptana.ruby.core 4 0 2015-11-27 23:57:30.297
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Expected method decl on top of stack, but was: Prime
+
+!ENTRY com.aptana.ruby.core 4 0 2015-11-27 23:57:30.298
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Expected type decl on top of stack, but was: 
+
+!ENTRY com.aptana.ruby.core 4 0 2015-11-27 23:57:30.299
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  AST stack was empty upon exiting script, but should have contained the script.
+
+!ENTRY com.aptana.ruby.core 4 0 2015-11-27 23:57:31.283
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Expected field decl on top of stack, but was: 
+
+!ENTRY com.aptana.ruby.core 4 0 2015-11-27 23:57:31.286
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Expected block on top of stack, but was: compute_matches()
+
+!ENTRY com.aptana.ruby.core 4 0 2015-11-27 23:57:31.288
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Expected method decl on top of stack, but was: SequenceMatcher
+
+!ENTRY com.aptana.ruby.core 4 0 2015-11-27 23:57:31.290
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  Expected type decl on top of stack, but was: 
+
+!ENTRY com.aptana.ruby.core 4 0 2015-11-27 23:57:31.290
+!MESSAGE (Build 3.6.1.201410201044) [ERROR]  AST stack was empty upon exiting script, but should have contained the script.
+!SESSION 2015-12-02 14:38:54.730 -----------------------------------------------
+eclipse.buildId=3.6.1.201410201044
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.aptana.ruby.core 4 0 2015-12-02 14:40:29.583
+!MESSAGE (eval):1: warning: variable $= is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+(eval):1: warning: variable $KCODE is no longer effective
+C:/Users/JAT/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `eval': Is a directory @ rb_sysopen - C:\Users\JAT\Desktop\Git\Rubysss\.metadata\.plugins\com.aptana.ruby.core\-571580919\4 (Errno::EISDIR)
+	from C:/Users/JAT/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `eval'
+	from C:/Users/JAT/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:180:in `block (3 levels) in <main>'
+	from C:/Users/JAT/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:179:in `each'
+	from C:/Users/JAT/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:179:in `block (2 levels) in <main>'
+	from C:/Users/JAT/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:178:in `open'
+	from C:/Users/JAT/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:178:in `block in <main>'
+	from C:/Users/JAT/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:152:in `each'
+	from C:/Users/JAT/AppData/Roaming/Appcelerator/Aptana Studio/configuration/org.eclipse.osgi/bundles/90/1/.cp/ruby/core_stubber.rb:152:in `<main>'
+
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-12-02 14:44:30.604
+!MESSAGE Project facet jst.ejb has not been defined. It is used in plugin org.eclipse.jst.j2ee.

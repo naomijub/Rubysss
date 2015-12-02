@@ -46,6 +46,7 @@ class Chromosome
       end
     end
     #puts fit
+    fit = fit - 50;
     return fit
   end
   
@@ -78,45 +79,18 @@ class Chromosome
   def mutate
     for i in 0 ... POP_SIZE
       if(rand >= MUTATION_RATE)
-        equals = true
-        gene = 0
-        while equals do
-          geneAux = rand(GENE_SIZE + (i * i + 1)) % GENE_SIZE
-          gene = geneAux
-          equals = hasNoEqualsMut(i, geneAux)
-        end
+        gene = rand(GENE_SIZE + (i * i + 1)) % GENE_SIZE
         #puts "#{@gene[i]}"
-        #equalIdx = whereEqual(i, gene)
         @gene[i][rand(GENE_SIZE)] = gene.to_s
         #puts "#{@gene[i]}"
       end
     end
   end
   
-  #If there is no equals, fitness will be max
-  def hasNoEqualsMut(g, i)
-    equals = false
-    for j in 0 ... GENE_SIZE
-      if @gene[g][j].to_i == i
-        equals = true
-      end      
-    end
-    return equals
-  end
-  
-  def whereEqual(g, i)
-    geneEqual = 0
-    for j in 0 ... GENE_SIZE
-      if @gene[g][j].to_i == i
-        geneEqual = j
-      end
-    end
-    return geneEqual
-  end
-  
   def convert
     for i in 0 ... POP_SIZE
       @gene[i] = @geneAux[i]
+      #puts "Gene: #{@gene[i]} - Aux: #{@geneAux[i]}"
     end
   end
   
@@ -145,6 +119,6 @@ while pop.getBestFit != 0 do
   pop.fitness
   puts "Best Fit: #{pop.getBestFit} Gene: #{pop.getGene(pop.getBestFitIdx)}"
 end
-
+puts "\n"
 puts "Best #{pop.getGene(pop.getBestFitIdx)}"
 
